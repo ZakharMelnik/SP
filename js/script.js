@@ -1,6 +1,4 @@
-
-/* Burger menu*/
-
+/* Бургер меню*/
 $(function(){
  $('.menu-btn').on('click', function() {
  	$(this).toggleClass('menu-btn_active');
@@ -12,7 +10,7 @@ $(function(){
  });
 });
 
-
+/* Сортировка товаров */
 $(function(){
  $('.grid-view').on('click', function() {
   $(this).toggleClass('active');
@@ -26,46 +24,18 @@ $(function(){
  });
 });
 
-
 $(function(){
- $('.price-down').on('click', function() {
+ $('.sorting').on('click', function() {
+  $('.sorting.active').removeClass('active');
   $(this).toggleClass('active');
-  $('.price-up').removeClass('active');
-  $('.sorting-new').removeClass('active');
-  $('.sorting-popularity').removeClass('active');
- });
-});
-$(function(){
- $('.price-up').on('click', function() {
-  $(this).toggleClass('active');
-  $('.price-down').removeClass('active');
-  $('.sorting-new').removeClass('active');
-  $('.sorting-popularity').removeClass('active');
- });
-});
-$(function(){
- $('.sorting-popularity').on('click', function() {
-  $(this).toggleClass('active');
-  $('.price-down').removeClass('active');
-  $('.price-up').removeClass('active');
-  $('.sorting-new').removeClass('active');
-  $('.sorting-price').removeClass('active');
- });
-});
-$(function(){
- $('.sorting-new').on('click', function() {
-  $(this).toggleClass('active');
-  $('.price-down').removeClass('active');
-  $('.price-up').removeClass('active');
-  $('.sorting-popularity').removeClass('active');
-  $('.sorting-price').removeClass('active');
  });
 });
 
 
+/* Выбор цвета */
 $(function(){
- $('.radio-color').on('click', function() {
-  $('.radio-color.active').removeClass('active');
+ $('.color-product').on('click', function() {
+  $('.color-product.active').removeClass('active');
   $(this).toggleClass('active');
  });
 });
