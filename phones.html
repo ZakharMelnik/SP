@@ -1,0 +1,845 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <title>SlicePiece</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="css/slick.css" >
+  <link  rel="stylesheet" href="css/slick-theme.css">
+ 
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/media.css">
+
+  <script src="js/jquery-3.3.1.js"></script>
+  <script src="js/script.js"></script>
+
+  <link rel="stylesheet" href="css/fotorama.css">
+  <script src="js/fotorama.js"></script>
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <script src="js/owl.carousel.min.js"></script>
+
+  <link rel="stylesheet" href="css/magnific-popup.css">
+  <script src="js/jquery.magnific-popup.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/slick.min.js"></script>
+
+</head>
+<body>
+
+<!-- Шапка -->
+<header class="header">
+
+  <!-- Mobile menu -->
+  <div class="adaptive-menu">
+
+    <a class="menu-btn">
+      <span></span>
+    </a>
+
+    <div class="header-panel">
+      <a class="header_search" href="#">
+        <img src="img/header/search.png" alt="search">
+      </a>
+      <a class="header_profile" href="profile.html">
+        <img src="img/header/profile.png" alt="profile">
+      </a>
+      <a class="header_cartt" href="cart.html">
+        <img src="img/header/cart.png" alt="cart" class="cart-img">
+      </a>
+    </div>
+
+    <div class="open-menu">
+      <ul class="nav">
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">О нас</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="stock.html">Акции</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="catalog.html">Каталог</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="news.html">Новости</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contacts.html">Контакты</a>
+        </li>
+      </ul>
+    </div>
+    
+  </div>
+
+  <!-- header -->
+  <div class="container">
+
+    <div class="header-navbar">
+      <ul class="nav">
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">О нас</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="stock.html">Акции</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="catalog.html">Каталог</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="news.html">Новости</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contacts.html">Контакты</a>
+        </li>
+      </ul>
+    </div>
+
+    <a class="header-logo" href="index.html">
+      <img src="img/logo-header.jpg" alt="logo">
+    </a>
+
+    <div class="header-panel">
+      <a class="header_search" href="#">
+        <img src="img/header/search.png" alt="search">
+      </a>
+
+      <a class="header_profile" href="profile.html">
+        <img src="img/header/profile.png" alt="profile">
+      </a>
+
+      <div class="header_phone">
+          <a class="tel" href="#">+7 (495) 567-78-56</a>
+          <a class="popup button_call" href="#сall">Обратный звонок</a>
+      </div>
+
+      <a href="cart.html" class="header_cart">
+        <img src="img/header/cart.png" alt="cart" class="cart-img">
+        <p>Корзина</p>
+      </a>
+    </div>
+
+  </div>
+
+  <!-- Меню на 1200px  -->
+  <div class="navbar">
+    <div class="container">
+      <ul class="nav">
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">О нас</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="stock.html">Акции</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="catalog.html">Каталог</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="news.html">Новости</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contacts.html">Контакты</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<!-- Banner -->
+<div class="banner">
+  <div class="fotorama"
+     data-autoplay="10000"
+     data-width="100%"
+     data-fit="cover"
+     data-loop="true"
+     data-transition="crossfade">
+
+    <div data-img="img/main-title/img1.jpg">
+      <div class="banner-title">
+        <h1>
+          Простые и стильные аксессуары
+          для вашего телефона
+        </h1>
+        <a href="catalog.html">Перейти в каталог</a>
+      </div>
+    </div>
+
+    <div data-img="img/main-title/img2.jpg">
+      <div class="banner-title">
+        <h1>
+          Простые и стильные аксессуары
+          для вашего телефона
+        </h1>
+        <a href="catalog.html">Перейти в каталог</a>
+      </div>
+    </div>
+
+    <div data-img="img/main-title/img3.jpg">
+      <div class="banner-title">
+        <h1>
+          Простые и стильные аксессуары
+          для вашего телефона
+        </h1>
+        <a href="catalog.html">Перейти в каталог</a>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- Хлебные крошки -->
+<div class="bread-crumbs">
+  <div class="container">
+      <ul>
+        <li><a href="index.html">Главная</a></li>
+        <li><a href="catalog.html">Каталог</a></li>
+        <li class="active"><a href="#">Телефоны</a></li>
+      </ul>
+  </div>
+</div>
+
+<!-- Телефоны -->
+<div class="phones">
+  <div class="container">
+    <div class="phones-title">
+      Телефоны
+    </div>
+
+    <div class="phones-banner">
+      <img src="img/phones-banner.jpg" alt="phones-banner">
+    </div>
+
+    <div class="row">
+      <div class="col-lg-3">
+
+        <div id="accordion"> 
+          <div class="card">
+            <div class="card-header" id="headingOne">
+                <button class="btn btn-link" data-toggle="collapse"
+                        data-target="#collapsePrice" aria-expanded="true" aria-controls="collapsePrice">
+                  Цена
+                </button>
+            </div>
+
+            <div id="collapsePrice" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+              <div class="card-body">
+                <input type="number" placeholder="от 450">
+                <input type="number" placeholder="до 120 000">
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header" id="headingTwo">
+                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseManufacturer" aria-expanded="false" aria-controls="collapseManufacturer">
+                  Производитель
+                </button>
+            </div>
+
+            <div id="collapseManufacturer" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+              <div class="card-body">
+                
+                <label>
+                  <input type="checkbox" name="checkbox" value="value">
+                  <p>Samsung</p><span>76</span>
+                </label><br>
+                <label>
+                  <input type="checkbox" name="checkbox" value="value">
+                  <p>Apple</p><span>76</span>
+                </label><br>
+                <label>
+                  <input type="checkbox" name="checkbox" value="value">
+                  <p>Honor</p><span>76</span>
+                </label><br>
+                <label>
+                  <input type="checkbox" name="checkbox" value="value">
+                  <p>Sony</p><span>76</span>
+                </label><br>
+                <label>
+                  <input type="checkbox" name="checkbox" value="value">
+                  <p>Nokia</p><span>76</span>
+                </label><br>
+                <label>
+                  <input type="checkbox" name="checkbox" value="value">
+                  <p>LG</p><span>76</span>
+                </label>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header" id="headingThree">
+                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseOffers" aria-expanded="false" aria-controls="collapseOffers">
+                  Специальные предложения
+                </button>
+            </div>
+            <div id="collapseOffers" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+              <div class="card-body">
+                
+                <label>
+                  <input type="checkbox" name="checkbox" value="value">
+                  <p>Samsung</p><span>76</span>
+                </label><br>
+                <label>
+                  <input type="checkbox" name="checkbox" value="value">
+                  <p>Apple</p><span>76</span>
+                </label><br>
+                <label>
+                  <input type="checkbox" name="checkbox" value="value">
+                  <p>Honor</p><span>76</span>
+                </label><br>
+                <label>
+                  <input type="checkbox" name="checkbox" value="value">
+                  <p>Sony</p><span>76</span>
+                </label><br>
+                <label>
+                  <input type="checkbox" name="checkbox" value="value">
+                  <p>Nokia</p><span>76</span>
+                </label><br>
+                <label>
+                  <input type="checkbox" name="checkbox" value="value">
+                  <p>LG</p><span>76</span>
+                </label>
+                
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header" id="headingThree">
+                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseAvailabilityDelivery" aria-expanded="false" aria-controls="collapseAvailabilityDelivery">
+                  Наличие и доставка
+                </button>
+            </div>
+            <div id="collapseAvailabilityDelivery" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+              <div class="card-body">
+                
+                <label>
+                  <input type="checkbox" name="checkbox" value="value">
+                  <p>Samsung</p><span>76</span>
+                </label><br>
+                <label>
+                  <input type="checkbox" name="checkbox" value="value">
+                  <p>Apple</p><span>76</span>
+                </label><br>
+                <label>
+                  <input type="checkbox" name="checkbox" value="value">
+                  <p>Honor</p><span>76</span>
+                </label><br>
+                <label>
+                  <input type="checkbox" name="checkbox" value="value">
+                  <p>Sony</p><span>76</span>
+                </label><br>
+                <label>
+                  <input type="checkbox" name="checkbox" value="value">
+                  <p>Nokia</p><span>76</span>
+                </label><br>
+                <label>
+                  <input type="checkbox" name="checkbox" value="value">
+                  <p>LG</p><span>76</span>
+                </label>
+                
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header" id="headingThree">
+                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTypeDevice" aria-expanded="false" aria-controls="collapseTypeDevice">
+                  Тип устройства
+                </button>
+            </div>
+            <div id="collapseTypeDevice" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+              <div class="card-body">
+                
+                <label>
+                  <input type="checkbox" name="checkbox" value="value">
+                  <p>Samsung</p><span>76</span>
+                </label><br>
+                <label>
+                  <input type="checkbox" name="checkbox" value="value">
+                  <p>Apple</p><span>76</span>
+                </label><br>
+                <label>
+                  <input type="checkbox" name="checkbox" value="value">
+                  <p>Honor</p><span>76</span>
+                </label><br>
+                <label>
+                  <input type="checkbox" name="checkbox" value="value">
+                  <p>Sony</p><span>76</span>
+                </label><br>
+                <label>
+                  <input type="checkbox" name="checkbox" value="value">
+                  <p>Nokia</p><span>76</span>
+                </label><br>
+                <label>
+                  <input type="checkbox" name="checkbox" value="value">
+                  <p>LG</p><span>76</span>
+                </label>
+                
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header" id="headingThree">
+                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTypeShell" aria-expanded="false" aria-controls="collapseTypeShell">
+                  Тип корпуса
+                </button>
+            </div>
+            <div id="collapseTypeShell" class="collapse"
+                aria-labelledby="headingThree" data-parent="#accordion">
+              <div class="card-body">
+                
+                <label>
+                  <input type="checkbox" name="checkbox" value="value">
+                  <p>Samsung</p><span>76</span>
+                </label><br>
+                <label>
+                  <input type="checkbox" name="checkbox" value="value">
+                  <p>Apple</p><span>76</span>
+                </label><br>
+                <label>
+                  <input type="checkbox" name="checkbox" value="value">
+                  <p>Honor</p><span>76</span>
+                </label><br>
+                <label>
+                  <input type="checkbox" name="checkbox" value="value">
+                  <p>Sony</p><span>76</span>
+                </label><br>
+                <label>
+                  <input type="checkbox" name="checkbox" value="value">
+                  <p>Nokia</p><span>76</span>
+                </label><br>
+                <label>
+                  <input type="checkbox" name="checkbox" value="value">
+                  <p>LG</p><span>76</span>
+                </label>
+                
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header" id="headingThree">
+                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseDiagonal" aria-expanded="false" aria-controls="collapseDiagonal">
+                  Диагональ дисплея
+                </button>
+            </div>
+            <div id="collapseDiagonal" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+              <div class="card-body">
+                
+                <label>
+                  <input type="checkbox" name="checkbox" value="value">
+                  <p>Samsung</p><span>76</span>
+                </label><br>
+                <label>
+                  <input type="checkbox" name="checkbox" value="value">
+                  <p>Apple</p><span>76</span>
+                </label><br>
+                <label>
+                  <input type="checkbox" name="checkbox" value="value">
+                  <p>Honor</p><span>76</span>
+                </label><br>
+                <label>
+                  <input type="checkbox" name="checkbox" value="value">
+                  <p>Sony</p><span>76</span>
+                </label><br>
+                <label>
+                  <input type="checkbox" name="checkbox" value="value">
+                  <p>Nokia</p><span>76</span>
+                </label><br>
+                <label>
+                  <input type="checkbox" name="checkbox" value="value">
+                  <p>LG</p><span>76</span>
+                </label>
+                
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header" id="headingThree">
+                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseCPU" aria-expanded="false" aria-controls="collapseCPU">
+                  Процессор
+                </button>
+            </div>
+            <div id="collapseCPU" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+              <div class="card-body">
+                
+                <label>
+                  <input type="checkbox" name="checkbox" value="value">
+                  <p>Samsung</p><span>76</span>
+                </label><br>
+                <label>
+                  <input type="checkbox" name="checkbox" value="value">
+                  <p>Apple</p><span>76</span>
+                </label><br>
+                <label>
+                  <input type="checkbox" name="checkbox" value="value">
+                  <p>Honor</p><span>76</span>
+                </label><br>
+                <label>
+                  <input type="checkbox" name="checkbox" value="value">
+                  <p>Sony</p><span>76</span>
+                </label><br>
+                <label>
+                  <input type="checkbox" name="checkbox" value="value">
+                  <p>Nokia</p><span>76</span>
+                </label><br>
+                <label>
+                  <input type="checkbox" name="checkbox" value="value">
+                  <p>LG</p><span>76</span>
+                </label>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="matched-goods">
+          <div class="matched-goods_title">Подобрано <span>2 345</span> товаров</div>
+
+          <div class="matched-goods_buttons">
+            <button type="button">Показать</button>
+            <button type="button">Сбросить фильтр</button>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="col-lg-9">
+        <div class="sorting-panel">
+          <div class="sorting-left">
+              <div class="sorting-price price-down">По цене <img src="img/down-arrow.png"></div>
+              <div class="sorting-price price-up">По цене <img src="img/up-arrow.png"></div>
+              <div class="sorting-popularity">По популярности</div>
+              <div class="sorting-new">По новизне</div>
+          </div>
+
+          <div class="sorting-right">
+            <p>Вид:</p>
+            <div class="grid-view active"></div>
+            <div class="list-view"></div>
+          </div>
+        </div>
+
+      <div class="product-list">
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <a href="#" class="popular-goods_product">
+            <div class="product-img">
+              <div class="hit">хит</div>
+              <img src="img/popular-product/img1.jpg" alt="product">
+              <div class="favorites"></div>
+            </div>
+            <div class="product-info">
+              <p>
+                Смартфон 
+                APPLE iPhoneX
+              </p>
+              <span>
+                70 990 р.
+              </span>
+              <button type="button">В корзину</button>
+              <button type="button" class="buy">Купить в один клик</button>
+            </div>
+          </a>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <a href="#" class="popular-goods_product">
+              <div class="product-img">
+                <div class="hit">хит</div>
+                <img src="img/popular-product/img2.jpg" alt="product">
+                <div class="favorites"></div>
+              </div>
+              <div class="product-info">
+                <p>
+                  Громкая связь 
+                  JABRA DRIVE
+                </p>
+                <span>
+                  2 800 р.
+                </span>
+                <button type="button">В корзину</button>
+                <button type="button" class="buy">Купить в один клик</button>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <a href="#" class="popular-goods_product">
+            <div class="product-img">
+              <div class="hit">хит</div>
+              <img src="img/popular-product/img3.jpg" alt="product">
+              <div class="favorites"></div>
+            </div>
+            <div class="product-info">
+              <p>
+                Смартфон 
+                SAMSUNG Galaxy A8
+              </p>
+              <span>
+                24 990 р.
+              </span>
+              <button type="button">В корзину</button>
+              <button type="button" class="buy">Купить в один клик</button>
+            </div>
+          </a>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <a href="#" class="popular-goods_product">
+              <div class="product-img">
+                <img src="img/popular-product/img2.jpg" alt="product">
+              </div>
+              <div class="product-info">
+                <p>
+                  Громкая связь 
+                  JABRA DRIVE
+                </p>
+                <span>
+                  2 800 р.
+                </span>
+                <button type="button">В корзину</button>
+                <button type="button" class="buy">Купить в один клик</button>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <a href="#" class="popular-goods_product">
+            <div class="product-img">
+              <img src="img/popular-product/img1.jpg" alt="product">
+            </div>
+            <div class="product-info">
+              <p>
+                Смартфон 
+                APPLE iPhoneX
+              </p>
+              <span>
+                70 990 р.
+              </span>
+              <button type="button">В корзину</button>
+              <button type="button" class="buy">Купить в один клик</button>
+            </div>
+          </a>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <a href="#" class="popular-goods_product">
+            <div class="product-img">
+              <img src="img/popular-product/img3.jpg" alt="product">
+            </div>
+            <div class="product-info">
+              <p>
+                Смартфон 
+                SAMSUNG Galaxy A8
+              </p>
+              <span>
+                24 990 р.
+              </span>
+              <button type="button">В корзину</button>
+              <button type="button" class="buy">Купить в один клик</button>
+            </div>
+          </a>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <a href="#" class="popular-goods_product">
+              <div class="product-img">
+                <img src="img/popular-product/img2.jpg" alt="product">
+              </div>
+              <div class="product-info">
+                <p>
+                  Громкая связь 
+                  JABRA DRIVE
+                </p>
+                <span class="price-new">
+                  2 600 р.
+                </span>
+                <span class="price-old">
+                  2 200 р.
+                </span>
+                <button type="button">В корзину</button>
+                <button type="button" class="buy">Купить в один клик</button>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <a href="#" class="popular-goods_product">
+            <div class="product-img">
+              <img src="img/popular-product/img3.jpg" alt="product">
+            </div>
+            <div class="product-info">
+              <p>
+                Смартфон 
+                SAMSUNG Galaxy A8
+              </p>
+              <span class="price-new">
+                  24 600 р.
+                </span>
+                <span class="price-old">
+                  23 900 р.
+                </span>
+              <button type="button">В корзину</button>
+              <button type="button" class="buy">Купить в один клик</button>
+            </div>
+          </a>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <a href="#" class="popular-goods_product">
+              <div class="product-img">
+                <img src="img/popular-product/img2.jpg" alt="product">
+              </div>
+              <div class="product-info">
+                <p>
+                  Громкая связь 
+                  JABRA DRIVE
+                </p>
+                <span class="price-new">
+                  2 800 р.
+                </span>
+                <span class="price-old">
+                  3 200 р.
+                </span>
+                <button type="button">В корзину</button>
+                <button type="button" class="buy">Купить в один клик</button>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="pagination">
+          <a href="#">&laquo;</a>
+          <a href="#"class="active">1</a>
+          <a href="#">2</a>
+          <a href="#">3</a>
+          <a href="#">4</a>
+          <a href="#">5</a>
+          <a href="#">&raquo;</a>
+        </div>
+
+      </div>
+
+      </div>
+ 
+    </div>
+  </div>
+</div>
+
+<!-- Main-text -->
+<div class="main-text">
+  <div class="container">
+    <div class="main-text_title">
+      Lorem ipsum
+    </div>
+    <p>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley</p>
+  </div>
+</div>
+
+<!-- Подписка на рассылку -->
+<section class="subscription">
+  <div class="container">
+    <div class="row justify-content-between align-items-center">
+
+      <div class="col-xl-auto col-sm-12">
+          <div class="subscription-title">Подписка</div>
+          <div class="subscription-subtitle">Подпишитесь на нашу рассылку</div>
+      </div>
+
+      <div class="col-xl-auto col-sm-12">
+        <form action="">
+          <input class="input-field" type="email" placeholder="E-mail">
+          <input class="submit-subscription" type="submit" value="Подписаться">
+        </form>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Корзина -->
+<div class="basket_wrapp">
+    <div class="basket_strip">
+        <p id="cart-total">
+          В вашей корзине товаров
+          <span>1</span>
+          на сумму
+          <span>80р.</span>
+        </p>
+        <a href="{{ checkout }}">{{ button_checkout }}</a>
+    </div>
+</div>
+
+<!-- Подвал -->
+<footer class="footer">
+  <div class="container">
+
+      <a class="footer-logo" href="#">
+        <img src="img/logo-footer.jpg" alt="logo">
+      </a>
+
+      <div class="footer-navbar">
+        <div class="navbar-title">Меню</div>
+
+        <ul class="nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">О нас</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Акции</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Каталог</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Новости</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Контакты</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer-nav-catalog">
+        <div class="navbar-title">Каталог</div>
+        <ul class="footer-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Телефоны</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Аксессуары</a>
+          </li>
+        </ul>
+      </div>
+
+      <ul class="social">
+        <li><a href="#"></a></li>
+        <li><a href="#"></a></li>
+        <li><a href="#"></a></li>
+      </ul>
+
+      <div class="contacts">
+        <a href="#" class="tel">+7 (495) 567-78-56</a>
+        <a href="#" class="email">info@slicepiece.com</a>
+
+        <p>Разработка сайта</p>
+        <p><a rel="nofollow" href="http://www.j-web.pro/">J-web.pro</a></p>
+      </div>
+
+      <p>© 2018 «Slice&Piece»</p>
+
+  </div>
+</footer>
+
+</body>
+</html>

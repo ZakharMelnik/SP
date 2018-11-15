@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <title>SlicePiece</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="css/slick.css" >
+  <link  rel="stylesheet" href="css/slick-theme.css">
+ 
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/media.css">
+
+  <script src="js/jquery-3.3.1.js"></script>
+  <script src="js/script.js"></script>
+
+  <link rel="stylesheet" href="css/fotorama.css">
+  <script src="js/fotorama.js"></script>
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <script src="js/owl.carousel.min.js"></script>
+
+  <link rel="stylesheet" href="css/magnific-popup.css">
+  <script src="js/jquery.magnific-popup.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/slick.min.js"></script>
+
+</head>
+<body>
+
+<!-- Шапка -->
+<header class="header">
+
+  <!-- Mobile menu -->
+  <div class="adaptive-menu">
+    <a class="menu-btn">
+      <span></span>
+    </a>
+
+    <div class="header-panel">
+      <a class="header_search popup button_call" href="#form-search">
+        <img src="img/header/search.png" alt="search">
+      </a>
+      <a class="header_profile popup button_call" href="#form-entrance">
+        <img src="img/header/profile.png" alt="profile">
+      </a>
+      <a class="header_cartt" href="cart.html">
+        <img src="img/header/cart.png" alt="cart" class="cart-img">
+        <div class="number-goods">
+          1
+        </div>
+      </a>
+    </div>
+
+    <div class="open-menu">
+      <ul class="nav">
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">О нас</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="stock.html">Акции</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="catalog.html">Каталог</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="news.html">Новости</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="cotacts.html">Контакты</a>
+        </li>
+      </ul>
+    </div> 
+  </div>
+
+  <!-- header -->
+  <div class="container">
+    <div class="header-navbar">
+      <ul class="nav">
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">О нас</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="stock.html">Акции</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="catalog.html">Каталог</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="news.html">Новости</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contacts.html">Контакты</a>
+        </li>
+      </ul>
+    </div>
+
+    <a class="header-logo" href="index.html">
+      <img src="img/logo-header.jpg" alt="logo">
+    </a>
+
+    <div class="header-panel">
+      <!-- search -->
+      <a class="header_search popup button_call" href="#form-search">
+        <img src="img/header/search.png" alt="search">
+      </a>
+      <!-- profile -->
+      <a class="header_profile popup button_call" href="#form-entrance">
+        <img src="img/header/profile.png" alt="profile">
+      </a>
+      <!-- phone -->
+      <div class="header_phone">
+          <a class="tel" href="#">+7 (495) 567-78-56</a>
+          <a class="popup button_call" href="#form-call">Обратный звонок</a>
+      </div>
+      <!-- cart -->
+      <a href="cart.html" class="header_cart">
+        <img src="img/header/cart.png" alt="cart" class="cart-img">
+        <div class="number-goods">
+          1
+        </div>
+        <p>Корзина</p>
+      </a>
+    </div>
+  </div>
+
+  <!-- Меню на 1200px  -->
+  <div class="navbar">
+    <div class="container">
+      <ul class="nav">
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">О нас</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="stock.html">Акции</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="catalog.html">Каталог</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="news.html">Новости</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contacts.html">Контакты</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<!-- Banner -->
+<div class="banner">
+  <div class="fotorama"
+     data-autoplay="10000"
+     data-width="100%"
+     data-fit="cover"
+     data-loop="true"
+     data-transition="crossfade">
+
+    <div data-img="img/main-title/img1.jpg">
+      <div class="banner-title">
+        <h1>
+          Простые и стильные аксессуары
+          для вашего телефона
+        </h1>
+        <a href="catalog.html">Перейти в каталог</a>
+      </div>
+    </div>
+
+    <div data-img="img/main-title/img2.jpg">
+      <div class="banner-title">
+        <h1>
+          Простые и стильные аксессуары
+          для вашего телефона
+        </h1>
+        <a href="catalog.html">Перейти в каталог</a>
+      </div>
+    </div>
+
+    <div data-img="img/main-title/img3.jpg">
+      <div class="banner-title">
+        <h1>
+          Простые и стильные аксессуары
+          для вашего телефона
+        </h1>
+        <a href="catalog.html">Перейти в каталог</a>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- Каталог -->
+<section class="catalog">
+  <div class="container">
+    <div class="row">
+
+      <div class="col-12">
+        <div class="catalog-title">Каталог</div>
+      </div>
+
+      <div class="col-lg-6">
+        <a class="catalog-phones" href="phones.html">
+          <div class="catalog-phones_img">
+            <img src="img/catalog/phones.jpg" alt="phones" width="100%">
+          </div>
+          <p>Телефоны</p>
+        </a>
+      </div>
+
+      <div class="col-lg-6">
+        <a class="catalog-accessories" href="#">
+          <div class="catalog-accessories_img">
+            <img src="img/catalog/accessories.jpg" alt="accessories" width="100%">
+          </div>
+          <p>Аксессуары</p>
+        </a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Блок: новинки, акции, скидки -->
+<section class="news-block">
+  <div class="container">
+    <div class="row">
+
+      <div class="col-xl-4">
+        <a class="novelty" href="#">
+
+          <div class="novelty-img">
+            <img src="img/news/novelty.jpg" alt="novelty">
+            <div class="novelty-title">
+            Новинки
+          </div>
+          </div>
+          
+
+        </a>
+      </div>
+
+      <div class="col-xl-4">
+        <a class="stock" href="stock.html">
+
+          <div class="stock-img">
+            <img src="img/news/stock.jpg" alt="stock">
+            <div class="stock-title">
+            Акции
+          </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="col-xl-4">
+        <a class="discounts" href="#">
+          
+          <div class="discounts-img">
+            <img src="img/news/discounts.jpg" alt="discounts">
+            <div class="discounts-title">
+            Скидки
+          </div>
+          </div>
+        </a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Популярные товары  -->
+<div class="popular-goods">
+  <div class="container">
+
+      <div class="popular-goods_title">Популярные товары</div>
+
+      <div class="popular-goods-slider owl-carousel">
+        <a href="card-product.html" class="popular-goods_product">
+
+          <div class="product-img">
+            <div class="hit">хит</div>
+            <img src="img/popular-product/img1.jpg" alt="product">
+            <div class="favorites"></div>
+          </div>
+
+          <div class="product-info">
+            <p>
+              Смартфон 
+              APPLE iPhoneX
+            </p>
+            <span>
+              70 990 р.
+            </span>
+            <button type="button">В корзину</button>
+          </div>
+
+        </a>
+
+        <a href="card-product.html" class="popular-goods_product">
+
+          <div class="product-img">
+            <div class="hit">хит</div>
+            <img src="img/popular-product/img2.jpg" alt="product">
+          </div>
+
+          <div class="product-info">
+            <p>
+              Громкая связь 
+              JABRA DRIVE
+            </p>
+            <span>
+              2 800 р.
+            </span>
+            <button type="button">В корзину</button>
+          </div>
+
+        </a>
+
+        <a href="card-product.html" class="popular-goods_product">
+
+          <div class="product-img">
+            <div class="hit">хит</div>
+            <img src="img/popular-product/img3.jpg" alt="product">
+          </div>
+
+          <div class="product-info">
+            <p>
+              Смартфон 
+              SAMSUNG Galaxy A8
+            </p>
+            <span>
+              24 990 р.
+            </span>
+            <button type="button">В корзину</button>
+          </div>
+
+        </a>
+
+        <a href="card-product.html" class="popular-goods_product">
+
+          <div class="product-img">
+            <div class="hit">хит</div>
+            <img src="img/popular-product/img4.jpg" alt="product">
+          </div>
+
+          <div class="product-info">
+            <p>
+              Смартфон XIAOMI Redmi 
+              Note 5A Prime
+            </p>
+            <span>
+              11 990 р.
+            </span>
+            <button type="button">В корзину</button>
+          </div>
+
+        </a>
+
+      </div>
+
+  </div>
+</div>
+
+<!-- SALE наши скидки  -->
+<div class="our-shares">
+  <div class="container">
+    <div class="row">
+
+    <div class="our-shares_block">
+
+      <div class="col-12 col-lg-6">
+        <div class="our-shares_title">
+          Sale
+        </div>
+
+        <p>Все наши акции</p>
+
+        <a href="stock.html" class="button">Выбрать и купить</a>
+      </div>
+
+    </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- Мы в соц сетях -->
+<div class="our-social">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-lg-6">
+
+        <div class="our-social_title">
+          мы в соц сетях
+        </div>
+
+        <p>
+          simply dummy text of the printing and  typesetting industry.  
+          is simply dummy is simply dummy
+          text of the printing and 
+        </p>
+
+        <a href="#">Присоеденяйтесь</a>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Main-text -->
+<div class="main-text">
+  <div class="container">
+    <div class="row">
+
+      <div class="col-12 col-lg-6">
+        <div class="main-text_title">
+          Lorem ipsum
+        </div>
+        <p>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley </p>
+      </div>
+
+      <div class="col-12 col-lg-6">
+        <div class="main-text_title">
+          Lorem ipsum
+        </div>
+        <p>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley </p>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- Подписка на рассылку -->
+<section class="subscription">
+  <div class="container">
+    <div class="row justify-content-between align-items-center">
+
+      <div class="col-xl-auto col-sm-12">
+          <div class="subscription-title">Подписка</div>
+          <div class="subscription-subtitle">Подпишитесь на нашу рассылку</div>
+      </div>
+
+      <div class="col-xl-auto col-sm-12">
+        <form action="">
+          <input class="input-field" type="email" placeholder="E-mail">
+          <input class="submit-subscription" type="submit" value="Подписаться">
+        </form>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Main-text -->
+<div class="main-text">
+  <div class="container">
+    <div class="main-text_title">
+      Lorem ipsum
+    </div>
+    <p>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley</p>
+  </div>
+</div>
+
+<!-- Подвал -->
+<footer class="footer">
+  <div class="container">
+
+    <a class="footer-logo" href="#">
+      <img src="img/logo-footer.jpg" alt="logo">
+    </a>
+
+    <div class="footer-navbar">
+      <div class="navbar-title">Меню</div>
+
+      <ul class="nav">
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">О нас</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="stock.html">Акции</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="catalog.html">Каталог</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="news.html">Новости</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contacts.html">Контакты</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="footer-nav-catalog">
+      <div class="navbar-title">Каталог</div>
+
+      <ul class="footer-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="phones.html">Телефоны</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Аксессуары</a>
+        </li>
+      </ul>
+    </div>
+
+    <ul class="social">
+      <li><a href="#"></a></li>
+      <li><a href="#"></a></li>
+      <li><a href="#"></a></li>
+    </ul>
+
+    <div class="contacts fc">
+      <a href="#" class="tel">+7 (495) 567-78-56</a>
+      <a href="#" class="email">info@slicepiece.com</a>
+
+      <p>Разработка сайта</p>
+      <p><a rel="nofollow" href="http://www.j-web.pro/">J-web.pro</a></p>
+    </div>
+
+    <p>© 2018 «Slice&Piece»</p>
+
+  </div>
+</footer>
+
+<!-- Форма регистрация -->
+<div id="form-reg" class="form-reg">
+  <div class="popup-title">Личный кабинет</div>
+  <p>Регистрация</p>
+
+  <form>
+    <label for="email">Email:</label>
+    <input class="input_popup" type="email" placeholder="Email">
+
+    <label for="userPassword">Пароль:</label>
+    <input class="input_popup" id="userPassword" type="password" placeholder="Пароль:">
+
+    <label for="confirmPassword">Повторите пароль:</label>
+    <input class="input_popup" id="confirmPassword" type="password" placeholder="Повторите пароль:">
+
+    <input class="submit_popup" type="submit" value="Зарегистрироваться">
+  </form>
+</div>
+
+<!-- Форма вход -->
+<div id="form-entrance" class="form-entrance">
+  <div class="popup-title">Личный кабинет</div>
+  <p>Вход</p>
+
+  <form>
+    <label for="email">Email:</label>
+    <input class="input_popup" type="email" placeholder="Email">
+
+    <label for="userPassword">Пароль:</label>
+    <input class="input_popup" id="userPassword" type="password" placeholder="Пароль:">
+
+    <input class="submit_popup" type="submit" value="Войти">
+  </form>
+  <div class="a">
+    <a class="popup" href="#form-reg">Регистрация</a>
+    <a class="popup" href="#form-forgotPassword">Забыли пароль</a>
+  </div>
+</div>
+
+<!-- Форма забыли пароль -->
+<div id="form-forgotPassword" class="form-forgotPassword">
+  <div class="popup-title">Личный кабинет</div>
+  <p>Забыли пароль</p>
+  <span>
+    Введите адрес электронной почты, который\
+    Вы указывали при регистрации, и мы
+    отправим Вам письмо с информацией для
+    восстановления пароля
+  </span>
+
+  <form>
+    <label for="email">Email:</label>
+    <input class="input_popup" type="email" placeholder="Email">
+    <input class="submit_popup" type="submit" value="Войти">
+  </form>
+</div>
+
+<!-- Форма обратный звонок -->
+<div id="form-call" class="form-call">
+  <div class="popup-title">Обратный звонок</div>
+
+  <form>
+
+    <label for="text">Ваше имя:</label>
+    <input class="input_popup" type="text" placeholder="Ваше имя">
+
+    <label for="tel">Ваш телефон:</label>
+    <input class="input_popup" type="tel" placeholder="Ваш телефон">
+
+    <input class="submit_popup" type="submit" value="Отправить">
+  </form>
+</div>
+
+<!-- Поиск -->
+<div id="form-search" class="form-search">
+  <div class="container">
+  
+  <div class="popup-title">Поиск</div>
+
+  <form>
+    <div class="row no-gutters">
+
+      <div class="col-lg-11 col-10">
+        <input type="search" class="input-search_popup" placeholder="Что будем искать?">
+      </div>
+
+      <div class="col-lg-1 col-2">
+        <div class="submit-search_popup">
+          <img src="img/search.png" alt="search">
+        </div>
+      </div>
+      
+    </div>
+  </form>
+  </div>
+</div>
+
+</body>
+</html>
