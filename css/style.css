@@ -1953,7 +1953,7 @@ input.submit-checkout {
 	outline: 1px solid #eaddd1;
 }
 
-.radio{
+.radio {
 	position: absolute;
 	z-index: -1;
 	opacity: 0;
@@ -1970,6 +1970,7 @@ input.submit-checkout {
 	display: inline-block;
 	overflow: hidden;
 }
+
 .colorCircle img {
 	width: 100%;
 }
@@ -1977,6 +1978,7 @@ input.submit-checkout {
 .color-product p {
 	margin: 0;
 }
+
 .specifications-title {
 	font-size: 18px;
 	color: #492402;
@@ -1991,12 +1993,14 @@ input.submit-checkout {
 	border: 0;
 	border-bottom: 1px solid #eaddd1;
 }
+
 .specifications .card-header {
 	width: 100%;
 	background: #fff;
 	border: 0;
 	height: 60px;
 }
+
 .specifications .card-header button {
  width: 100%;
  height: 100%;
@@ -2008,9 +2012,11 @@ input.submit-checkout {
  background: url(../img/down-arrow.png) right no-repeat;
  margin: 0;
 }
+
 .specifications .card-body {
 	padding: 0;
 }
+
 .specifications .card-body .table td {
 	width: 50%;
 	padding: 12px 10px 12px 0;
