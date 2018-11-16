@@ -2183,7 +2183,23 @@ input.submit-checkout {
  font-family: 'SolomonSansBold';
  font-size: 12px;
 }
+.product-list .product-info  a.buy {
+	width: 140px;
+	margin: 15px auto 0;
+ background: none;
+ background-color: #240E00;
+ text-align: center;
+ color: #fff;
+ font-family: 'SolomonSansBold';
+ font-size: 12px;
+ padding: 10px 25px;
+	box-shadow: 0px 10px 20px -5px rgba(0,0,0,0.20);
+	display: block;
+}
 
+a.buy:hover {
+	text-decoration: none;
+}
 
 #collapsePrice input {
 	width: 85px;
