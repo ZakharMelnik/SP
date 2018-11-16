@@ -2086,20 +2086,12 @@ input.submit-checkout {
 	justify-content: space-between;
 	margin-left: 25px;
 }
-.sorting-left > div {
-	font-size: 17px;
-	color: #8e7660;
-	font-family: 'SolomonSansBook';
-	cursor: pointer;
-}
-.sorting-left > div:hover {
-	text-decoration: none;
-	color: #492402;
-}
-.sorting-left > div.active {
-	color: #492402;
-	font-family: 'SolomonSansBold';
-
+.sorting-left > select {
+	border: 1px solid #eaddd1;
+	font-size: 16px;
+ padding: 4px 10px;
+ font-family: 'SolomonSansBook';
+ color: #8e7660;
 }
 
 .sorting-right {
@@ -2390,4 +2382,32 @@ input.submit-checkout {
 .basket_strip a {
 	font-size: 21px;
 	color: #d09a42;
+}
+
+.irs-bar {
+	background: #c5b4a5;
+	border: none;
+}
+
+.irs-slider {
+	border-radius: 0;
+	width: 10px;
+ background: #331c08;
+ border: 0;
+ box-shadow: 0;
+}
+.irs-slider:hover {
+	background: #28120e;
+}
+.irs-line {
+	background: #fff;
+	border: 1px solid #c5b4a5;
+}
+
+.irs-to,
+.irs-from {
+	background: #fff;
+}
+.irs-single {
+	background: #fff;
 }

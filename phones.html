@@ -8,11 +8,16 @@
 
   <link rel="stylesheet" href="css/slick.css" >
   <link  rel="stylesheet" href="css/slick-theme.css">
- 
+
+  <link rel="stylesheet" href="css/ion.rangeSlider.css">
+  <link rel="stylesheet" href="css/ion.rangeSlider.skinHTML5.css">
+
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/media.css">
+
+  
 
   <script src="js/jquery-3.3.1.js"></script>
   <script src="js/script.js"></script>
@@ -27,6 +32,8 @@
   <script src="js/jquery.magnific-popup.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/slick.min.js"></script>
+  <script src="js/ion.rangeSlider.min.js"></script>
+
 
 </head>
 <body>
@@ -226,8 +233,7 @@
 
             <div id="collapsePrice" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
               <div class="card-body">
-                <input type="number"  min="0" max="120000" placeholder="от 450">
-                <input type="number" min="0" max="120000" placeholder="до 120 000">
+                <input type="text" id="priceSlider" name="example_name" value="" />
               </div>
             </div>
           </div>
@@ -515,10 +521,12 @@
       <div class="col-lg-9">
         <div class="sorting-panel">
           <div class="sorting-left">
-              <div class="sorting sorting-price price-down">По цене <img src="img/down-arrow.png"></div>
-              <div class="sorting sorting-price price-up">По цене <img src="img/up-arrow.png"></div>
-              <div class="sorting sorting-popularity">По популярности</div>
-              <div class="sorting sorting-new">По новизне</div>
+              <select>
+                <option>От дешевых к дорогим</option>
+                <option>От дорогих к дешевым</option>
+                <option>По популярности</option>
+                <option>По новизне</option>
+              </select>
           </div>
 
           <div class="sorting-right">

@@ -10,6 +10,10 @@ $(function(){
  });
 });
 
+ $(function(){
+   $("input[type='number']").prop('min',0);
+   $("input[type='number']").prop('max',120000);
+});
 
 /* Сортировка товаров */
 $(function(){
@@ -157,5 +161,16 @@ $('.slider-nav').slick({
   dots: true,
   centerMode: true,
   focusOnSelect: true
+});
+});
+
+
+$(function () {
+    $("#priceSlider").ionRangeSlider({
+    type: "double",
+    min: 0,
+    max: 120000,
+    from: 0,
+    to: 120000,
 });
 });
