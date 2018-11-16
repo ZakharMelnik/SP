@@ -10,24 +10,62 @@ $(function(){
  });
 });
 
+
 /* Сортировка товаров */
 $(function(){
- $('.grid-view').on('click', function() {
+ $('.price-down').on('click', function() {
   $(this).toggleClass('active');
-  $('.list-view').toggleClass('active');
- });
-});
-$(function(){
- $('.list-view').on('click', function() {
-  $(this).toggleClass('active');
-  $('.grid-view').toggleClass('active');
+  $('.price-up').removeClass('active');
+  $('.sorting-new').removeClass('active');
+  $('.sorting-popularity').removeClass('active');
  });
 });
 
 $(function(){
- $('.sorting').on('click', function() {
-  $('.sorting.active').removeClass('active');
+ $('.price-up').on('click', function() {
   $(this).toggleClass('active');
+  $('.price-down').removeClass('active');
+  $('.sorting-new').removeClass('active');
+  $('.sorting-popularity').removeClass('active');
+ });
+});
+
+$(function(){
+ $('.sorting-popularity').on('click', function() {
+  $(this).toggleClass('active');
+  $('.price-down').removeClass('active');
+  $('.price-up').removeClass('active');
+  $('.sorting-new').removeClass('active');
+  $('.sorting-price').removeClass('active');
+ });
+});
+
+$(function(){
+ $('.sorting-new').on('click', function() {
+  $(this).toggleClass('active');
+  $('.price-down').removeClass('active');
+  $('.price-up').removeClass('active');
+  $('.sorting-popularity').removeClass('active');
+  $('.sorting-price').removeClass('active');
+ });
+});
+
+
+$(function(){
+ $('.list-view').on('click', function() {
+  $('.sorting-view').removeClass('active');
+  $(this).toggleClass('active');
+  $('.product-list .popular-goods_product').addClass('product-view-list');
+  $('.product-list .product-specifications').css({"display":"block"});
+ });
+});
+
+$(function(){
+ $('.grid-view').on('click', function() {
+  $('.sorting-view').removeClass('active');
+  $(this).toggleClass('active');
+  $('.product-list .popular-goods_product').removeClass('product-view-list');
+  $('.product-list .product-specifications').css({"display":"none"});
  });
 });
 

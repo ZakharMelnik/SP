@@ -28,6 +28,17 @@
 	margin-bottom: 25px;
 	max-width: 100%;
 }
+.sorting-right {
+	display: none;
+}
+.sorting-panel {
+	padding: 20px 50px;
+}
+.sorting-left {
+	width: 100%;
+	margin: 0px auto;
+}
+
 }
 
 @media (min-width: 280px) and (max-width: 992px) {
@@ -100,14 +111,9 @@
 .sorting-right > p {
 	font-size: 14px;
 }
-.sorting-right {
-	display: none;
+.product-list {
+ justify-content: center;
 }
-/* .sorting-right > .grid-view,
-.sorting-right > .list-view  {
-	width: 40px;
-	height: 40px;
-} */
 }
 
 @media (min-width: 280px) and (max-width: 576px) {

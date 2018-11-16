@@ -736,7 +736,10 @@ p {
 }
 .product-info {
 	padding: 25px;
-	min-height: 257px;
+	display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
 }
 
 .popular-goods_product p {
@@ -2128,6 +2131,53 @@ input.submit-checkout {
 	background-color: #e7e1d2;
 }
 
+
+/*Товары*/
+
+.product-list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.product-list .popular-goods_product {
+	display: flex;
+	flex-direction: column;
+	width: 270px;
+	margin-bottom: 25px;
+	cursor: default;
+}
+
+.product-view-list {
+	width: 100%!important;
+	flex-direction: row!important;
+	min-height: 0!important;
+}
+
+.product-information{
+	width: 100%;
+	padding: 25px 25px 0;
+}
+
+.product-title {
+	text-align: center;
+	-min-height: 32px;
+	font-size: 17px;
+	font-family: 'SolomonSansBook';
+ color: #492402;
+ display: flex;
+}
+.product-specifications {
+	margin-top: 25px;
+	display: none;
+	font-family: 'SolomonSansBook';
+ color: #492402;
+ font-size: 14px;
+}
+.product-list .product-img {
+	margin: 0;
+}
+
 .product-list .product-info  button {
 	background: url(../img/button.jpg) no-repeat center;
 	color: #240E00;
@@ -2141,10 +2191,7 @@ input.submit-checkout {
  font-family: 'SolomonSansBold';
  font-size: 12px;
 }
-.product-list .popular-goods_product {
-	width: 270px;
-	margin: 0 auto 25px;
-}
+
 
 #collapsePrice input {
 	width: 85px;

@@ -226,8 +226,8 @@
 
             <div id="collapsePrice" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
               <div class="card-body">
-                <input type="number" placeholder="от 450">
-                <input type="number" placeholder="до 120 000">
+                <input type="number"  min="0" max="120000" placeholder="от 450">
+                <input type="number" min="0" max="120000" placeholder="до 120 000">
               </div>
             </div>
           </div>
@@ -523,199 +523,179 @@
 
           <div class="sorting-right">
             <p>Вид:</p>
-            <div class="grid-view active"></div>
-            <div class="list-view"></div>
+            <div class="sorting-view grid-view active"></div>
+            <div class="sorting-view list-view"></div>
           </div>
         </div>
 
-      <div class="product-list">
-        <div class="row">
+      <div class="products">
+        <div class="product-list">
 
-          <div class="col-lg-4 col-md-6 col-sm-12">
-            <a href="#" class="popular-goods_product">
-            <div class="product-img">
+          <div class="popular-goods_product">
+            <a href="#" class="product-img">
               <div class="hit">хит</div>
               <img src="img/popular-product/img1.jpg" alt="product">
               <div class="favorites"></div>
-            </div>
-            <div class="product-info">
-              <p>
+            </a>
+            <div class="product-information">
+              <a href="" class="product-title">
                 Смартфон 
                 APPLE iPhoneX
-              </p>
-              <span>
-                70 990 р.
-              </span>
-              <button type="button">В корзину</button>
-              <button type="button" class="buy">Купить в один клик</button>
-            </div>
-          </a>
-          </div>
-
-          <div class="col-lg-4 col-md-6 col-sm-12">
-            <a href="#" class="popular-goods_product">
-              <div class="product-img">
-                <div class="hit">хит</div>
-                <img src="img/popular-product/img2.jpg" alt="product">
-                <div class="favorites"></div>
+              </a>
+              <div class="product-specifications">
+                <table class="table">
+                  <tbody>
+                    <!-- Экран -->
+                    <tr>
+                      <td class="text-left product-descr">Экран</td>
+                      <td class="text-left product-inf">(5.99", IPS)</td>
+                    </tr>
+                    <!-- Процессор -->
+                    <tr>
+                      <td class="text-left product-descr">Процессор</td>
+                      <td class="text-left product-inf">Snapdragon 636</td>
+                    </tr>
+                    <!-- Встроенной памяти -->
+                    <tr>
+                      <td class="text-left product-descr">Встроенной памяти</td>
+                      <td class="text-left product-inf">32 ГБ</td>
+                    </tr>
+                    <!-- Основная камера -->
+                    <tr>
+                      <td class="text-left product-descr">Основная камера</td>
+                      <td class="text-left product-inf">16Мп</td>
+                    </tr>
+                    <!-- Фронтальная камера -->
+                    <tr>
+                      <td class="text-left product-descr">Фронтальная камера</td>
+                      <td class="text-left product-inf">8Мп</td>
+                    </tr>
+                  </tbody>
+                </table>
               </div>
-              <div class="product-info">
-                <p>
-                  Громкая связь 
-                  JABRA DRIVE
-                </p>
-                <span>
-                  2 800 р.
-                </span>
-                <button type="button">В корзину</button>
-                <button type="button" class="buy">Купить в один клик</button>
-              </div>
-            </a>
-          </div>
-
-          <div class="col-lg-4 col-md-6 col-sm-12">
-            <a href="#" class="popular-goods_product">
-            <div class="product-img">
-              <div class="hit">хит</div>
-              <img src="img/popular-product/img3.jpg" alt="product">
-              <div class="favorites"></div>
             </div>
             <div class="product-info">
-              <p>
-                Смартфон 
-                SAMSUNG Galaxy A8
-              </p>
-              <span>
-                24 990 р.
-              </span>
-              <button type="button">В корзину</button>
-              <button type="button" class="buy">Купить в один клик</button>
-            </div>
-          </a>
-          </div>
-
-          <div class="col-lg-4 col-md-6 col-sm-12">
-            <a href="#" class="popular-goods_product">
-              <div class="product-img">
-                <img src="img/popular-product/img2.jpg" alt="product">
-              </div>
-              <div class="product-info">
-                <p>
-                  Громкая связь 
-                  JABRA DRIVE
-                </p>
-                <span>
-                  2 800 р.
-                </span>
-                <button type="button">В корзину</button>
-                <button type="button" class="buy">Купить в один клик</button>
-              </div>
-            </a>
-          </div>
-
-          <div class="col-lg-4 col-md-6 col-sm-12">
-            <a href="#" class="popular-goods_product">
-            <div class="product-img">
-              <img src="img/popular-product/img1.jpg" alt="product">
-            </div>
-            <div class="product-info">
-              <p>
-                Смартфон 
-                APPLE iPhoneX
-              </p>
-              <span>
-                70 990 р.
-              </span>
-              <button type="button">В корзину</button>
-              <button type="button" class="buy">Купить в один клик</button>
-            </div>
-          </a>
-          </div>
-
-          <div class="col-lg-4 col-md-6 col-sm-12">
-            <a href="#" class="popular-goods_product">
-            <div class="product-img">
-              <img src="img/popular-product/img3.jpg" alt="product">
-            </div>
-            <div class="product-info">
-              <p>
-                Смартфон 
-                SAMSUNG Galaxy A8
-              </p>
-              <span>
-                24 990 р.
-              </span>
-              <button type="button">В корзину</button>
-              <button type="button" class="buy">Купить в один клик</button>
-            </div>
-          </a>
-          </div>
-
-          <div class="col-lg-4 col-md-6 col-sm-12">
-            <a href="#" class="popular-goods_product">
-              <div class="product-img">
-                <img src="img/popular-product/img2.jpg" alt="product">
-              </div>
-              <div class="product-info">
-                <p>
-                  Громкая связь 
-                  JABRA DRIVE
-                </p>
-                <span class="price-new">
-                  2 600 р.
-                </span>
-                <span class="price-old">
-                  2 200 р.
-                </span>
-                <button type="button">В корзину</button>
-                <button type="button" class="buy">Купить в один клик</button>
-              </div>
-            </a>
-          </div>
-
-          <div class="col-lg-4 col-md-6 col-sm-12">
-            <a href="#" class="popular-goods_product">
-            <div class="product-img">
-              <img src="img/popular-product/img3.jpg" alt="product">
-            </div>
-            <div class="product-info">
-              <p>
-                Смартфон 
-                SAMSUNG Galaxy A8
-              </p>
               <span class="price-new">
-                  24 600 р.
-                </span>
-                <span class="price-old">
-                  23 900 р.
-                </span>
+                39 000 р.
+              </span>
+              <span class="price-old">
+                40 500 р.
+              </span>
               <button type="button">В корзину</button>
               <button type="button" class="buy">Купить в один клик</button>
             </div>
-          </a>
           </div>
 
-          <div class="col-lg-4 col-md-6 col-sm-12">
-            <a href="#" class="popular-goods_product">
-              <div class="product-img">
-                <img src="img/popular-product/img2.jpg" alt="product">
-              </div>
-              <div class="product-info">
-                <p>
-                  Громкая связь 
-                  JABRA DRIVE
-                </p>
-                <span class="price-new">
-                  2 800 р.
-                </span>
-                <span class="price-old">
-                  3 200 р.
-                </span>
-                <button type="button">В корзину</button>
-                <button type="button" class="buy">Купить в один клик</button>
-              </div>
+          <div class="popular-goods_product">
+            <a href="#" class="product-img">
+              <div class="hit">хит</div>
+              <img src="img/popular-product/img1.jpg" alt="product">
+              <div class="favorites"></div>
             </a>
+            <div class="product-information">
+              <a href="" class="product-title">
+                Смартфон 
+                APPLE iPhoneX
+              </a>
+              <div class="product-specifications">
+                <table class="table">
+                  <tbody>
+                    <!-- Экран -->
+                    <tr>
+                      <td class="text-left product-descr">Экран</td>
+                      <td class="text-left product-inf">(5.99", IPS)</td>
+                    </tr>
+                    <!-- Процессор -->
+                    <tr>
+                      <td class="text-left product-descr">Процессор</td>
+                      <td class="text-left product-inf">Snapdragon 636</td>
+                    </tr>
+                    <!-- Встроенной памяти -->
+                    <tr>
+                      <td class="text-left product-descr">Встроенной памяти</td>
+                      <td class="text-left product-inf">32 ГБ</td>
+                    </tr>
+                    <!-- Основная камера -->
+                    <tr>
+                      <td class="text-left product-descr">Основная камера</td>
+                      <td class="text-left product-inf">16Мп</td>
+                    </tr>
+                    <!-- Фронтальная камера -->
+                    <tr>
+                      <td class="text-left product-descr">Фронтальная камера</td>
+                      <td class="text-left product-inf">8Мп</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div class="product-info">
+              <span class="price-new">
+                70 800 р.
+              </span>
+              <span class="price-old">
+                71 600 р.
+              </span>
+              <button type="button">В корзину</button>
+              <button type="button" class="buy">Купить в один клик</button>
+            </div>
           </div>
+
+          <div class="popular-goods_product">
+            <a href="#" class="product-img">
+              <div class="hit">хит</div>
+              <img src="img/popular-product/img2.jpg" alt="product">
+              <div class="favorites"></div>
+            </a>
+            <div class="product-information">
+              <a href="" class="product-title">
+                Громкая связь 
+                JABRA DRIVE
+              </a>
+              <div class="product-specifications">
+                <table class="table">
+                  <tbody>
+                    <!-- Экран -->
+                    <tr>
+                      <td class="text-left product-descr">Экран</td>
+                      <td class="text-left product-inf">(5.99", IPS)</td>
+                    </tr>
+                    <!-- Процессор -->
+                    <tr>
+                      <td class="text-left product-descr">Процессор</td>
+                      <td class="text-left product-inf">Snapdragon 636</td>
+                    </tr>
+                    <!-- Встроенной памяти -->
+                    <tr>
+                      <td class="text-left product-descr">Встроенной памяти</td>
+                      <td class="text-left product-inf">32 ГБ</td>
+                    </tr>
+                    <!-- Основная камера -->
+                    <tr>
+                      <td class="text-left product-descr">Основная камера</td>
+                      <td class="text-left product-inf">16Мп</td>
+                    </tr>
+                    <!-- Фронтальная камера -->
+                    <tr>
+                      <td class="text-left product-descr">Фронтальная камера</td>
+                      <td class="text-left product-inf">8Мп</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div class="product-info">
+              <span class="price-new">
+                2 800 р.
+              </span>
+              <span class="price-old">
+                3 200 р.
+              </span>
+              <button type="button">В корзину</button>
+              <button type="button" class="buy">Купить в один клик</button>
+            </div>
+          </div>
+
         </div>
 
         <div class="pagination">
