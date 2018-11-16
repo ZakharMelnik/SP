@@ -1419,14 +1419,16 @@ input.submit-checkout {
 .mfp-content .form-forgotPassword,
 .mfp-content .form-entrance,
 .mfp-content .form-reg,
-.mfp-content .form-search  {
+.mfp-content .form-search,
+.mfp-content .form-fastBuy  {
 	display: inline-block;
 }
 
 .form-call,
 .form-forgotPassword,
 .form-entrance,
-.form-reg {
+.form-reg,
+.form-fastBuy {
 	position:relative;
 	background:#492402;
 	max-width:470px;
@@ -1448,7 +1450,8 @@ input.submit-checkout {
 .form-call > p,
 .form-forgotPassword > p,
 .form-entrance > p,
-.form-reg > p {
+.form-reg > p,
+.form-fastBuy > p {
 	font-size: 18px;
 	font-family: 'SolomonSansNormal';
 	color:#fff;
@@ -1466,7 +1469,8 @@ input.submit-checkout {
 .form-call form,
 .form-forgotPassword form,
 .form-entrance form,
-.form-reg form {
+.form-reg form,
+.form-fastBuy form {
 	width:100%;
 	margin:25px auto 0;
 }
@@ -1474,7 +1478,8 @@ input.submit-checkout {
 .form-call label,
 .form-forgotPassword label,
 .form-entrance label,
-.form-reg label {
+.form-reg label,
+.form-fastBuy label {
 	width: 100%;
 	text-align: center;
 	font-size: 14px;
