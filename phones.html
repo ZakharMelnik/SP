@@ -221,6 +221,7 @@
 
     <div class="row">
       <div class="col-lg-3">
+        <form action="#" id="filter">
 
         <div id="accordion"> 
           <div class="card">
@@ -245,7 +246,7 @@
                 </button>
             </div>
 
-            <div id="collapseManufacturer" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+            <div id="collapseManufacturer" class="collapse show" aria-labelledby="headingTwo" data-parent="#accordion">
               <div class="card-body">
                 
                 <label>
@@ -283,7 +284,7 @@
                   Специальные предложения
                 </button>
             </div>
-            <div id="collapseOffers" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+            <div id="collapseOffers" class="collapse show" aria-labelledby="headingThree" data-parent="#accordion">
               <div class="card-body">
                 
                 <label>
@@ -321,7 +322,7 @@
                   Наличие и доставка
                 </button>
             </div>
-            <div id="collapseAvailabilityDelivery" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+            <div id="collapseAvailabilityDelivery" class="collapse show" aria-labelledby="headingThree" data-parent="#accordion">
               <div class="card-body">
                 
                 <label>
@@ -359,7 +360,7 @@
                   Тип устройства
                 </button>
             </div>
-            <div id="collapseTypeDevice" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+            <div id="collapseTypeDevice" class="collapse show" aria-labelledby="headingThree" data-parent="#accordion">
               <div class="card-body">
                 
                 <label>
@@ -397,7 +398,7 @@
                   Тип корпуса
                 </button>
             </div>
-            <div id="collapseTypeShell" class="collapse"
+            <div id="collapseTypeShell" class="collapse show"
                 aria-labelledby="headingThree" data-parent="#accordion">
               <div class="card-body">
                 
@@ -436,7 +437,7 @@
                   Диагональ дисплея
                 </button>
             </div>
-            <div id="collapseDiagonal" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+            <div id="collapseDiagonal" class="collapse show" aria-labelledby="headingThree" data-parent="#accordion">
               <div class="card-body">
                 
                 <label>
@@ -470,11 +471,11 @@
 
           <div class="card">
             <div class="card-header" id="headingThree">
-                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseCPU" aria-expanded="false" aria-controls="collapseCPU">
+                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseCPU" aria-expanded="false" aria-controls="collapseCPU" >
                   Процессор
                 </button>
             </div>
-            <div id="collapseCPU" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+            <div id="collapseCPU" class="collapse show" aria-labelledby="headingThree" data-parent="#accordion">
               <div class="card-body">
                 
                 <label>
@@ -511,11 +512,11 @@
           <div class="matched-goods_title">Подобрано <span>2 345</span> товаров</div>
 
           <div class="matched-goods_buttons">
-            <button type="button">Показать</button>
-            <button type="button">Сбросить фильтр</button>
+            <button type="submit" form="filter">Показать</button>
+            <button type="reset">Сбросить фильтр</button>
           </div>
         </div>
-
+      </form>
       </div>
 
       <div class="col-lg-9">
