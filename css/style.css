@@ -2360,7 +2360,7 @@ a.buy:hover {
 	background-color: #EADDD1;
 }
 
-.pagination a.active {
+.pagination .active a {
  background-color: #331c08;
  color: #fff;
  font-family: 'SolomonSansBold';
@@ -2417,9 +2417,11 @@ a.buy:hover {
  border: 0;
  box-shadow: 0;
 }
-.irs-slider:hover {
+.irs-slider:hover,
+.irs-slider.state_hover {
 	background: #28120e;
 }
+
 .irs-line {
 	background: #fff;
 	border: 1px solid #c5b4a5;
@@ -2429,6 +2431,13 @@ a.buy:hover {
 .irs-from {
 	background: #fff;
 }
+
 .irs-single {
 	background: #fff;
+}
+
+.irs-min,
+.irs-max {
+	background: #c5b4a5;
+	color: #fff!important;
 }
